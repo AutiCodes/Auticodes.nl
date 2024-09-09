@@ -327,31 +327,60 @@
           <!-- Articles -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h2 class="text-center">Articles</h2>
-
+            <!-- Example card 1 -->
             <div class="card-transparent">
               <div class="card-body">
-                <img src="assets/img/blog/blog-1140x700.png" class="card-img-top rounded article-image" alt="...">
+                <a href="test-article-1.php">
+                  <img src="assets/img/blog/soldering-9038.jpg" class="card-img-top rounded article-image" alt="...">
+                </a>
                 <p class="mt-1 mb-1"><i class="bi bi-calendar"></i> 09-09-2024 </p>
-                <h5 class="card-title mt-1">Card title</h5>
-                <p class="card-text mb-1 mt-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title mt-1">
+                  <a href="test-article-1.php">
+                    Drone building: How to setup an VTX
+                  </a>
+                </h5>
+                <p class="card-text mb-1 mt-1">
+                  <a href="test-article-1.php">
+                    You just got you're new VTX in the mail. Great! Only now it needs to be connected to the flight
+                    controller...
+                  </a>
+                </p>
 
-                <span class="badge rounded-pill bg-primary article-badge">category 1</span>
-                <span class="badge rounded-pill article-badge">Category 2</span>
+                <span class="badge rounded-pill bg-primary article-badge">Electronics</span>
+                <span class="badge rounded-pill article-badge">RC</span>
+              </div>
+            </div>
+
+            <!-- Example card 2 -->
+            <div class="card-transparent mt-4">
+              <div class="card-body">
+                <img src="assets/img/blog/computer-coding.webp" class="card-img-top rounded article-image" alt="...">
+                <p class="mt-1 mb-1"><i class="bi bi-calendar"></i> 09-09-2024 </p>
+                <h5 class="card-title mt-1">
+                  Coding you're first Wordpress plugin
+                </h5>
+                <p class="card-text mb-1 mt-1">
+                  When having an Wordpress website you probally notice very quick that you maybe
+                  need some extra features...
+                </p>
+
+                <span class="badge rounded-pill bg-primary article-badge">IT</span>
+                <span class="badge rounded-pill article-badge">Programming</span>
               </div>
             </div>
           </div>
 
-          <!-- Sidebar -->
-          <div class="container col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <!-- Sidebar
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h2 class="text-center">Categories</h2>
             <ul class="list-group-transparent text-center">
               <li class="list-group-item">Programming</li>
-              <hr class="category-divider">
               <li class="list-group-item">Electronics</li>
               <li class="list-group-item">RC</li>
               <li class="list-group-item">IT</li>
             </ul>
           </div>
+          -->
         </div>
       </div>
     </section>
