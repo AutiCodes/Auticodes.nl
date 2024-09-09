@@ -54,9 +54,10 @@
         <div class="row justify-content-center">
           <div class="col-lg-9">
             <h2 class="text-white">AutiCodes</h2>
-            <p class="text-white"><span class="typed" data-typed-items="Change code, not the world."></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <p class="text-white"><span class="typed" data-typed-items="Change code, not the world. But later, change the world with that code."></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">
               <a href="https://github.com/AutiCodes" target="_blank" class="text-white"><i class="bi bi-github"></i></a>
+              <a href="https://www.youtube.com/@AutiCodes" target="_blank" class="text-white"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
         </div>
