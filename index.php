@@ -8,6 +8,10 @@
   <meta content="My portfolio" name="description">
   <meta content="Kelvin de Reus AutiCodes Portfolio" name="keywords">
   <meta content="Kelvin de Reus" name="author">
+  <meta name="og:image" content="assets\img\AutiCodes2.png">
+  <meta name="og:title" content="Kelvin de Reus">
+  <meta name="twitter:image" content="assets\img\AutiCodes2.png">
+  <meta name="twitter:title" content="Kelvin de Reus">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
