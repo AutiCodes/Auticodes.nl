@@ -1,0 +1,32 @@
+Een videozender (VTX) is een essentieel onderdeel van een FPV (First Person View) drone, omdat deze de videobeelden van de camera naar je FPV-bril of monitor stuurt. Het correct aansluiten van de VTX op je flight controller is belangrijk voor een stabiele en goed werkende FPV-ervaring. Hieronder volgt een stap-voor-stap handleiding.
+
+Benodigdheden:
+VTX (Video Transmitter)
+Flight controller
+FPV-camera
+Soldeerstation
+Kabels en connectors
+Stappenplan
+Flight Controller voorbereiden Voordat je begint, controleer de pinout of het diagram van je flight controller om te weten waar je de VTX moet aansluiten. Vaak staat er "VTX", "Video Out" of "VTX Out" aangegeven. Zorg ervoor dat je flight controller goed is bevestigd en klaar is voor bekabeling.
+
+FPV-camera aansluiten Sluit eerst de FPV-camera aan op de juiste videoinvoer van de flight controller. Dit is meestal een pin aangeduid met “CAM” of “Video In”. De camera heeft drie draden: voeding (+5V of +12V), massa (GND) en videosignaal (V). De voedingsdraden gaan naar de voedingsuitgangen van de flight controller, terwijl de videosignaaldraad naar de CAM- of Video In-aansluiting gaat.
+
+VTX-aansluitingen controleren De VTX heeft meestal drie tot vijf draden:
+
+Voeding (+): Zorg ervoor dat de VTX de juiste spanning krijgt. Dit kan rechtstreeks van de batterij komen of via een gereguleerde uitgang van de flight controller (5V of 12V).
+Massa (GND): Verbind deze met de GND-pin op je flight controller.
+Videosignaal (V): Deze draad gaat naar de VTX-out of video-uitgang op je flight controller.
+Smart Audio of Tramp Telemetry (optioneel): Sommige VTX’en ondersteunen besturingssignalen, waarmee je via je flight controller de zendvermogen of kanaal kunt aanpassen. Verbind deze draad met de UART TX-poort op je flight controller.
+Aansluiten op de flight controller
+
+Voeding: Soldeer de voedingsdraad van de VTX op de juiste voedingsuitgang van de flight controller. Gebruik een multimeter om te controleren of de uitgang de juiste spanning levert.
+Massa: Verbind de massa van de VTX met een van de GND-punten op de flight controller.
+Videosignaal: Sluit de videosignaal draad van de VTX aan op de VTX-output pin van de flight controller.
+Smart Audio (indien aanwezig): Sluit de Smart Audio draad aan op de juiste UART TX-poort en configureer de UART in de Betaflight of andere flight controller software.
+Configuratie in Betaflight (indien nodig) Ga naar de Betaflight-configurator en configureer de juiste UART voor Smart Audio of Tramp Telemetry als je deze functie gebruikt. Zorg ervoor dat de videozender goed functioneert en controleer of het videosignaal helder is op je FPV-bril of monitor.
+
+Testen
+Na het aansluiten van de VTX, FPV-camera en het configureren van de flight controller, test je de verbinding door je drone aan te zetten en te controleren of het videosignaal correct naar je FPV-bril of monitor wordt gestuurd. Pas op met oververhitting van de VTX tijdens het testen, omdat deze zonder luchtkoeling snel warm kan worden.
+
+Conclusie
+Het correct aansluiten van een VTX op een flight controller is cruciaal voor een goede FPV-ervaring. Door de bovenstaande stappen te volgen en de juiste configuraties toe te passen, zorg je voor een betrouwbaar videosignaal en voorkom je storingen tijdens je vluchten.

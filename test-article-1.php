@@ -57,6 +57,7 @@
         <p class="mt-4">
         You just got you're new VTX in the mail. Great! Only now it needs to be connected to the flight
         controller...
+        <?php include('sample_text.txt') ?>
         </p>
       </div>
     <!-- End Section Title -->
