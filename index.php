@@ -280,7 +280,28 @@
               </ul>
             </div>
             <!-- End Resume Item -->
-          </div>          
+
+            <div class="resume-item pb-0">
+              <h4>AllDayBot</h4>
+              <p>
+                <em>
+                  A Discord bot build for a tech&gaming community
+                </em>
+              </p>
+              <ul>
+                <li><a href="">
+                  <div class="social-links">
+                    <a href="https://github.com/AutiCodes/AllDayBot" target="_blank" class="text-white">
+                      <i class="bi bi-github">
+                        Github
+                      </i>
+                    </a>
+                </div></a></li>
+                <li>In active development</li>
+              </ul>
+            </div>
+            <!-- End Resume Item -->
+          </div>
         </div>
       </div>
     </section>
