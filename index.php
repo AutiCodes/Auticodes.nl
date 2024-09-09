@@ -78,7 +78,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/ik-cut.png" class="img-fluid" alt="">
+            <img src="assets/img/ik-cut.png" class="img-fluid rounded" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>
@@ -104,7 +104,7 @@
                       echo $diff->format("I'm %y years, %m months and %d days old");
                     ?>
                   </span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>contact@auticodes.nl</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:contact@auticodes.nl">contact@auticodes.nl</a></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
