@@ -40,7 +40,7 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="https://auticodes.github.io/uptime/" target="_blank"><i class="bi bi-box-arrow-up-right navicon"></i><span>Uptime page</span></a></li>
+        <li><a href="http://188.245.87.244:3001/status/main" target="_blank"><i class="bi bi-hdd-rack-fill navicon"></i><span>Uptime page</span></a></li>
       </ul>
     </nav>
   </header>
