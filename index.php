@@ -79,8 +79,8 @@
               Developer, IT fanatic and RC pilot
             </h2>
             <p class="fst-italic py-3">
-              I'm a nerd with a love for programming, web hosting, hardware, software and building awesome projects!
-              I also love flying RC planes!
+            I'm a tech enthusiast with an love for programming, web hosting, hardware, software, electronics and building awesome but functional projects!<br>
+            In my spare time i love to go to the gym and fly with RC planes and drones by an local RC club.
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -94,13 +94,11 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>
                     <?php
-                      $birthDate = "11-05-2001";
-                      $today = date("d-m-Y");
-                      $diff = date_diff(date_create($birthDate), date_create($today));
-                      echo $diff->format('%y years, %m months and %d days old');
+                      $diff = date_diff(date_create("11-05-2001"), date_create(date("d-m-Y")));
+                      echo $diff->format("I'm %y years, %m months and %d days old");
                     ?>
                   </span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>work@auticodes.nl</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>contact@auticodes.nl</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
@@ -125,73 +123,6 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Projects</h3>
-
-            <div class="resume-item pb-0">
-              <h4>RC flight club manager</h4>
-              <p>
-                <em>
-                  An custom solution build for <a href="https://trmc.nl target="_blank">TRMC</a>. It allows for club members to register their flights easily before taking flight on the club field. Management from TRMC can then view the flights, export them for them for the local authority and more.
-                </em>
-              </p>
-              <ul>
-                <li><a href="">
-                  <div class="social-links">
-                    <a href="https://github.com/AutiCodes/Trmc-club-manager" target="_blank" class="text-white">
-                      <i class="bi bi-github">
-                        Github
-                      </i>
-                    </a>
-                </div></a></li>
-                <li>Still work in progress</li>
-              </ul>
-            </div>
-            <!-- End Resume Item -->
-
-            <div class="resume-item pb-0">
-              <h4>Sakura CMS</h4>
-              <p><em>An Laravel based CMS</em></p>
-              <ul>
-              <li><a href="">
-                <div class="social-links">
-                  <a href="https://github.com/AutiCodes/Sakura" target="_blank" class="text-white">
-                    <i class="bi bi-github">
-                      Github
-                    </i>
-                  </a>
-              </div></a></li>
-              <li>Still work in progress</li>
-            </ul>
-            </div>
-            <!-- End Resume Item -->
-
-            <h3 class="resume-title">Things i do</h3>
-
-            <div class="resume-item pb-0">
-              <h4>TRMC web, mailhosting and development</h4>
-              <ul>
-                <li>Web hosting</li>
-                <li>Mailserver hosting</li>
-                <li>Web development</li>
-                <li>Go to <a href="https://trmc.nl" target="_blank">TRMC.nl</a></li>
-              </ul>
-            </div>
-            <!-- End Resume Item -->
-
-            <div class="resume-item pb-0">
-              <h4>AllDayTechAndGaming community hosting and development</h4>
-              <ul>
-                <li>Web hosting</li>
-                <li>Mailserver hosting</li>
-                <li>Web and Discord bot development</li>
-                <li>Go to <a href="https://alldaytechandgaming.nl" target="_blank">AllDayTechAndGaming.nl</a></li>
-              </ul>
-            </div>
-            <!-- End Resume Item -->
-          </div>
-          
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
@@ -220,8 +151,131 @@
                 <li>IT migration, delivering laptops to employees</li>
               </ul>
             </div><!-- End Resume Item -->
-
           </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Services i run for others</h3>
+
+            <div class="resume-item pb-0">
+              <h4>TRMC web, mailhosting and development</h4>
+              <ul>
+                <li>Web hosting (paid)</li>
+                <li>Mailserver hosting</li>
+                <li>Web development</li>
+                <li><a href="https://trmc.nl" target="_blank">TRMC.nl</a></li>
+              </ul>
+            </div>
+            <!-- End Resume Item -->
+
+            <div class="resume-item pb-0">
+              <h4>AllDayTechAndGaming community hosting and development</h4>
+              <ul>
+                <li>Web hosting</li>
+                <li>Mailserver hosting</li>
+                <li>Web and Discord bot development</li>
+                <li><a href="https://alldaytechandgaming.nl" target="_blank">AllDayTechAndGaming.nl</a></li>
+              </ul>
+            </div>
+            <!-- End Resume Item -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Projects</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Kiyomi</h4>
+              <p>
+                <em>
+                  An custom solution build for <a href="https://trmc.nl target="_blank">TRMC</a>. It allows for club members to register their flights easily before taking flight on the club field. Management from TRMC can then view the flights, export them for them for the local authority and more.
+                </em>
+              </p>
+              <ul>
+                <li><a href="">
+                  <div class="social-links">
+                    <a href="https://github.com/AutiCodes/Kiyomi" target="_blank" class="text-white">
+                      <i class="bi bi-github">
+                        Github
+                      </i>
+                    </a>
+                </div></a></li>
+                <li>In active development</li>
+              </ul>
+            </div>
+            <!-- End Resume Item -->
+
+            <div class="resume-item pb-0">
+              <h4>Sakura CMS</h4>
+              <p><em>An Laravel based CMS</em></p>
+              <ul>
+              <li><a href="">
+                <div class="social-links">
+                  <a href="https://github.com/AutiCodes/Sakura" target="_blank" class="text-white">
+                    <i class="bi bi-github">
+                      Github
+                    </i>
+                  </a>
+              </div></a></li>
+              <li>Still work in progress</li>
+            </ul>
+            </div>
+
+            <div class="resume-item pb-0">
+              <h4>Contributor Invoiceplane</h4>
+              <p><em>An Invoice management system. Currently contributing to V2</em></p>
+              <ul>
+              <li><a href="">
+                <div class="social-links">
+                  <a href="https://github.com/InvoicePlane" target="_blank" class="text-white">
+                    <i class="bi bi-github">
+                      Github
+                    </i>
+                  </a>
+              </div></a></li>
+              <li>Still work in progress</li>
+            </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Projects</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Wordpress plugin</h4>
+              <p><em>An Wordpress plugin to send an notification to an Discord channel when a new article has been posted</em></p>
+              <ul>
+                <li><a href="">
+                  <div class="social-links">
+                    <a href="https://github.com/AutiCodes/Wordpress-posts-to-Discord" target="_blank" class="text-white">
+                      <i class="bi bi-github">
+                        Github
+                      </i>
+                    </a>
+                </div></a></li>
+                <li>Finished</li>
+              </ul>
+            </div>
+
+            <div class="resume-item pb-0">
+              <h4>Get my IP</h4>
+              <p>
+                <em>
+                  I was done with pulling 10MB+ to get my WAN IP. So i've made my own!
+                </em>
+              </p>
+              <ul>
+                <li><a href="">
+                  <div class="social-links">
+                    <a href="https://github.com/AutiCodes/get-my-ip" target="_blank" class="text-white">
+                      <i class="bi bi-github">
+                        Github
+                      </i>
+                    </a>
+                </div></a></li>
+                <li>Finished</li>
+              </ul>
+            </div>
+            <!-- End Resume Item -->
+          </div>          
         </div>
       </div>
     </section>
@@ -231,14 +285,13 @@
   <footer id="footer" class="footer position-relative light-background">
     <div class="container">
       <div class="copyright">
-        <span>Copyright</span> <strong class="px-1 sitename">Kelvin de Reus <?php date('Y'); ?></strong> <span>All Rights Reserved</span>
+        <span>Copyright</span> <strong class="px-1 sitename">Kelvin de Reus <?php echo date('Y'); ?></strong>
       </div>
     </div>
   </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -254,7 +307,6 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
