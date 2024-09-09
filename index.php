@@ -40,6 +40,7 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#blog"><i class="bi bi-file-text navicon"></i><span>Blog</span></a></li>
         <li><a href="http://188.245.87.244:3001/status/main" target="_blank"><i class="bi bi-hdd-rack-fill navicon"></i><span>Uptime page</span></a></li>
       </ul>
     </nav>
@@ -309,6 +310,53 @@
       </div>
     </section>
     <!-- /Resume Section -->
+
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Blog</h2>
+        <p>
+        </p>
+      </div>
+    <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <!-- Articles -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="text-center">Articles</h2>
+
+            <div class="card-transparent">
+              <div class="card-body">
+                <img src="assets/img/blog/blog-1140x700.png" class="card-img-top rounded article-image" alt="...">
+                <p class="mt-1 mb-1"><i class="bi bi-calendar"></i> 09-09-2024 </p>
+                <h5 class="card-title mt-1">Card title</h5>
+                <p class="card-text mb-1 mt-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                <span class="badge rounded-pill bg-primary article-badge">category 1</span>
+                <span class="badge rounded-pill article-badge">Category 2</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <div class="container col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="text-center">Categories</h2>
+            <ul class="list-group-transparent text-center">
+              <li class="list-group-item">Programming</li>
+              <hr class="category-divider">
+              <li class="list-group-item">Electronics</li>
+              <li class="list-group-item">RC</li>
+              <li class="list-group-item">IT</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /blog Section -->
+
   </main>
 
   <footer id="footer" class="footer position-relative light-background">

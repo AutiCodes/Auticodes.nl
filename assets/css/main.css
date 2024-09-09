@@ -98,58 +98,6 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* PHP Email Form Messages
-------------------------------*/
-.php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #ffffff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: var(--surface-color);
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--accent-color);
-  border-top-color: var(--surface-color);
-  animation: php-email-form-loading 1s linear infinite;
-}
-
-@keyframes php-email-form-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -1463,8 +1411,30 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Starter Section Section
+# Blog section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+/*
+ Article cards
+*/
+.article-image {
+  object-fit: none; 
+  object-position: center; 
+  max-height: 200px;
+  max-width: 500px;
+  transition: transform .2s;
+}
+
+.article-image:hover {
+  transform: scale(1.03);
+}
+
+.article-badge {
+  background-color: var(--accent-color) !important;
+  color: var(--default-color) !important;
+}
+
+/* Category */
+.category-divider {
+  max-width: 200px;
+  margin: auto;
 }
