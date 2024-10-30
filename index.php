@@ -41,7 +41,7 @@
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>What i do</span></a></li>
-        <li><a href="https://uptime.auticodes.nl target="_blank"><i class="bi bi-diagram-2 navicon"></i><span>Uptime page</span></a></li>
+        <li><a href="https://uptime.auticodes.nl" target="_blank"><i class="bi bi-diagram-2 navicon"></i><span>Uptime page</span></a></li>
       </ul>
     </nav>
   </header>
