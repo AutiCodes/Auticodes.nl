@@ -1034,7 +1034,8 @@ section,
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 50%);
+  color: var(--heading-color);
+
   font-size: 26px;
   line-height: 0;
 }

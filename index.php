@@ -447,21 +447,15 @@
                     </p>
                     <h3>Sander Den Breejen</h3>
                     <h4>Ceo &amp; Founder HandBuildComputers</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                    </div>
                   </div>
                 </div>
-                <!--
                 <div class="col-lg-2 text-center">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
+                  <img src="assets/img/testimonials/handbuildcomputer.png" class="img-fluid testimonial-img" alt="">
                 </div>
-                -->
               </div>
             </div>
           </div><!-- End testimonial item -->
-          
-          <!--
+
           <div class="swiper-slide">
             <div class="testimonial-item">
               <div class="row gy-4 justify-content-center">
@@ -469,22 +463,22 @@
                   <div class="testimonial-content">
                     <p>
                       <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                      <span>
+                      I am the secretary of the Twentse Radio Modelvliegtuig Club TRMC. Fortunately, we have Kelvin as a member in our beautiful active association. Kelvin offered his services to host our website www.trmc.nl and to update it together with me. In addition, Kelvin has created a club manager for us in which we can keep track of flights made but also communicate via email with our members. The membership file is also kept in it. We are very happy with his service, the website and the club manager are running to our full satisfaction and more importantly everything is well secured.
+                      </span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                    </div>
+                    <h3>Wim</h3>
+                    <h4>Secretary TRMC</h4>
                   </div>
                 </div>
                 <div class="col-lg-2 text-center">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
+                  <img src="assets/img/testimonials/trmc.png" class="img-fluid testimonial-img" alt="">
                 </div>
               </div>
             </div>
-          </div> End testimonial item -->
+          </div> <!-- End testimonial item -->
+
           </div>
         <div class="swiper-pagination"></div>
       </div>
