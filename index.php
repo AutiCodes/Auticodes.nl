@@ -94,7 +94,7 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 may 2001</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://auticodes.nl</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Enschede, Netherlands</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Groenlo, Netherlands</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
@@ -332,7 +332,7 @@
             <a href="" class="stretched-link">
               <h3>Software development</h3>
             </a>
-            <p></p>
+            <p>Coding websites with Laravel and Bootstrap. Creating Discord bots with Disnake.</p>
           </div>
         </div><!-- End Service Item -->
 
@@ -344,7 +344,7 @@
             <a href="" class="stretched-link">
               <h3>Hosting</h3>
             </a>
-            <p></p>
+            <p>Hosting websites, databases and Discord bots on Ubuntu server 22.04 and 24.04 LTS.</p>
           </div>
         </div><!-- End Service Item -->
 
@@ -356,7 +356,7 @@
             <a href="" class="stretched-link">
               <h3>E-mail hosting</h3>
             </a>
-            <p></p>
+            <p>Hosting E-mail services with Exim, Dovecot and an SMTP relay.</p>
           </div>
         </div><!-- End Service Item -->
 
@@ -368,7 +368,7 @@
             <a href="" class="stretched-link">
               <h3>Web management</h3>
             </a>
-            <p></p>
+            <p>Managing websites like WordPress.</p>
             <a href="#" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
@@ -381,7 +381,7 @@
             <a href="" class="stretched-link">
               <h3>Thinkering</h3>
             </a>
-            <p></p>
+            <p>I love to thinker with hardware, software and electronics.</p>
             <a href="#" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
@@ -394,7 +394,7 @@
             <a href="" class="stretched-link">
               <h3>CAD</h3>
             </a>
-            <p</p>
+            <p>Creating design for my hobby in the RC plane's</p>
             <a href="#" class="stretched-link"></a>
           </div>
         </div><!-- End Service Item -->
