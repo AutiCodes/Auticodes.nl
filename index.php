@@ -57,7 +57,6 @@
             <p class="text-white"><span class="typed" data-typed-items="Change code, not the world. But later, change the world with that code."></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">
               <a href="https://github.com/AutiCodes" target="_blank" class="text-white"><i class="bi bi-github"></i></a>
-              <a href="https://www.linkedin.com/in/kelvin-de-reus-052141152/" target="_blank" class="text-white"><i class="bi bi-linkedin"></i></a>
               <a href="https://www.youtube.com/@AutiCodes" target="_blank" class="text-white"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
@@ -79,35 +78,34 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/ik-cut.png" class="img-fluid rounded" alt="">
+            <img src="assets/img/ik-cut.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>
               Developer, IT fanatic and RC pilot
             </h2>
             <p class="fst-italic py-3">
-            Hi! I'm Kelvin de Reus, aka AutiCodes.<br>
             I'm a tech enthusiast with an love for programming, web hosting, hardware, software, electronics and building awesome but functional projects!<br>
             In my spare time i love to go to the gym and fly with RC planes and drones by an local RC club.
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-balloon"></i> <strong>Birthday:</strong> <span>11 may 2001</span></li>
-                  <li><i class="bi bi-globe"></i> <strong>Website:</strong> <span>https://auticodes.nl</span></li>
-                  <li><i class="bi bi-house-door"></i> <strong>City:</strong> <span>Enschede, Netherlands</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 may 2001</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://auticodes.nl</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Enschede, Netherlands</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-calendar"></i><strong>Age:</strong> <span>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>
                     <?php
                       $diff = date_diff(date_create("11-05-2001"), date_create(date("d-m-Y")));
                       echo $diff->format("I'm %y years, %m months and %d days old");
                     ?>
                   </span></li>
-                  <li><i class="bi bi-envelope"></i> <strong>Email:</strong> <span><a href="mailto:contact@auticodes.nl">contact@auticodes.nl</a></span></li>
-                  <li><i class="bi bi-person-workspace"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>contact@auticodes.nl</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
             </div>
