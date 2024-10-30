@@ -40,7 +40,8 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-        <li><a href="http://188.245.87.244:3001/status/main" target="_blank"><i class="bi bi-hdd-rack-fill navicon"></i><span>Uptime page</span></a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>What i do</span></a></li>
+        <li><a href="https://uptime.auticodes.nl target="_blank"><i class="bi bi-diagram-2 navicon"></i><span>Uptime page</span></a></li>
       </ul>
     </nav>
   </header>
@@ -307,12 +308,195 @@
       </div>
     </section>
     <!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>What i do</h2>
+        <p>
+          I do a lot of stuff. Tho these below are the main things.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-item item-cyan position-relative">
+            <div class="icon">
+              <img src="assets/img/services/code.png" width="100" height="100">
+            </div>
+            <a href="" class="stretched-link">
+              <h3>Software development</h3>
+            </a>
+            <p></p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-item item-orange position-relative">
+            <div class="icon">
+              <img src="assets/img/services/server.png" width="100" height="100">
+            </div>
+            <a href="" class="stretched-link">
+              <h3>Hosting</h3>
+            </a>
+            <p></p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-item item-teal position-relative">
+            <div class="icon">
+              <img src="assets/img/services/email.png" width="100" height="100">
+            </div>
+            <a href="" class="stretched-link">
+              <h3>E-mail hosting</h3>
+            </a>
+            <p></p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item item-red position-relative">
+            <div class="icon">
+              <img src="assets/img/services/site.png" width="100" height="100">
+            </div>
+            <a href="" class="stretched-link">
+              <h3>Web management</h3>
+            </a>
+            <p></p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-item item-indigo position-relative">
+            <div class="icon">
+              <img src="assets/img/services/thinker.png" width="100" height="100">
+            </div>
+            <a href="" class="stretched-link">
+              <h3>Thinkering</h3>
+            </a>
+            <p></p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-item item-pink position-relative">
+            <div class="icon">
+              <img src="assets/img/services/cad.png" width="100" height="100">
+            </div>
+            <a href="" class="stretched-link">
+              <h3>CAD</h3>
+            </a>
+            <p</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+
+      </div>
+
+    </div>
+  </section><!-- /Services Section -->
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>What people think of my work</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": "auto",
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            }
+          }
+        </script>
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="row gy-4 justify-content-center">
+                <div class="col-lg-6">
+                  <div class="testimonial-content">
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>
+                        I am super happy with Kelvin's services! He makes sure my website always runs fast and secure, and communication is smooth and hassle-free. That's what we as Rotterdammers like. Always available, quick with solutions - highly recommended for carefree website management!
+                      </span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                    <h3>Sander Den Breejen</h3>
+                    <h4>Ceo &amp; Founder HandBuildComputers</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <!--
+                <div class="col-lg-2 text-center">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
+                </div>
+                -->
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+          
+          <!--
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="row gy-4 justify-content-center">
+                <div class="col-lg-6">
+                  <div class="testimonial-content">
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 text-center">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
+                </div>
+              </div>
+            </div>
+          </div> End testimonial item -->
+          </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      </div>
+    </section><!-- /Testimonials Section -->
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
     <div class="container">
       <div class="copyright">
-        <span>Copyright</span> <strong class="px-1 sitename">Kelvin de Reus <?php echo date('Y'); ?></strong>
+        <span>Copyright</span> <strong class="px-1 sitename">Kelvin de Reus </strong> <?php echo date('Y'); ?>
       </div>
     </div>
   </footer>
