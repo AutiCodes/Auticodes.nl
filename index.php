@@ -141,7 +141,7 @@
                   Software development
                 </li>
                 <li>
-                  Creating an booking and customer management system for an vacation home company
+                  Development off an paying, booking and customer management system for an vacation home company
                 </li>
                 <li>
                   also helping them configuring their company website
