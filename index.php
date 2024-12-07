@@ -177,7 +177,6 @@
               </ul>
             </div><!-- End Resume Item -->
           </div>
-          festivalkleintjehollands.nl
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Services i run for others</h3>
 
