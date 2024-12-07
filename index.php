@@ -133,6 +133,24 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
+              <h4>Software developer</h4>
+              <h5>11-2024 - 12-2024</h5>
+              <p><em>hanninkhof.de</em></p>
+              <ul>
+                <li>
+                  Software development
+                </li>
+                <li>
+                  Creating an booking and customer management system for an vacation home company
+                </li>
+                <li>
+                  also helping them configuring their company website
+                </li>
+              </ul>
+            </div>
+            <!-- Edn Resume Item -->
+
+            <div class="resume-item">
               <h4>Helpdesk employee</h4>
               <h5>02-2022 - 06-2022</h5>
               <p><em>Teleperformance, Netherlands</em></p>
@@ -159,14 +177,24 @@
               </ul>
             </div><!-- End Resume Item -->
           </div>
-
+          festivalkleintjehollands.nl
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Services i run for others</h3>
 
             <div class="resume-item pb-0">
-              <h4>TRMC web, mailhosting and development</h4>
+              <h4>festivalkleintjehollands.nl (paid)</h4>
               <ul>
-                <li>Web hosting (paid)</li>
+                <li>Web hosting</li>
+                <li>Mailserver hosting</li>
+                <li><a href="https://festivalkleintjehollands.nl" target="_blank">TRMC.nl</a></li>
+              </ul>
+            </div>
+            <!-- End Resume Item -->
+
+            <div class="resume-item pb-0">
+              <h4>TRMC.nl (paid)</h4>
+              <ul>
+                <li>Web hosting</li>
                 <li>Mailserver hosting</li>
                 <li>Web development</li>
                 <li><a href="https://trmc.nl" target="_blank">TRMC.nl</a></li>
@@ -175,7 +203,7 @@
             <!-- End Resume Item -->
 
             <div class="resume-item pb-0">
-              <h4>AllDayTechAndGaming community hosting and development</h4>
+              <h4>AllDayTechAndGaming.nl</h4>
               <ul>
                 <li>Web hosting</li>
                 <li>Mailserver hosting</li>
