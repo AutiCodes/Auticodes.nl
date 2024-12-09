@@ -13,22 +13,18 @@
   <meta name="twitter:image" content="assets\img\AutiCodes2.png">
   <meta name="twitter:title" content="Kelvin de Reus">
 
-  <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
@@ -47,7 +43,6 @@
   </header>
 
   <main class="main">
-    <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
       <img src="assets/img/bgnew.png" alt="">
 
@@ -64,17 +59,13 @@
         </div>
       </div>
     </section>
-    <!-- /Hero Section -->
 
-    <!-- About Section -->
     <section id="about" class="about section">
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
         <p>
         </p>
       </div>
-    <!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 justify-content-center">
@@ -116,17 +107,12 @@
         </div>
       </div>
     </section>
-    <!-- /About Section -->
 
-
-    <!-- Resume Section -->
     <section id="resume" class="resume section">
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <p></p>
       </div>
-      <!-- End Section Title -->
 
       <div class="container">
         <div class="row">
@@ -148,7 +134,6 @@
                 </li>
               </ul>
             </div>
-            <!-- Edn Resume Item -->
 
             <div class="resume-item">
               <h4>Helpdesk employee</h4>
@@ -166,7 +151,6 @@
                 </li>
               </ul>
             </div>
-            <!-- Edn Resume Item -->
 
             <div class="resume-item">
               <h4>IT EMPLOYEE</h4>
@@ -175,7 +159,7 @@
               <ul>
                 <li>IT migration, delivering laptops to employees</li>
               </ul>
-            </div><!-- End Resume Item -->
+            </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Services i run for others</h3>
@@ -188,7 +172,6 @@
                 <li><a href="https://festivalkleintjehollands.nl" target="_blank">TRMC.nl</a></li>
               </ul>
             </div>
-            <!-- End Resume Item -->
 
             <div class="resume-item pb-0">
               <h4>TRMC.nl (paid)</h4>
@@ -199,7 +182,6 @@
                 <li><a href="https://trmc.nl" target="_blank">TRMC.nl</a></li>
               </ul>
             </div>
-            <!-- End Resume Item -->
 
             <div class="resume-item pb-0">
               <h4>AllDayTechAndGaming.nl</h4>
@@ -210,7 +192,6 @@
                 <li><a href="https://alldaytechandgaming.nl" target="_blank">AllDayTechAndGaming.nl</a></li>
               </ul>
             </div>
-            <!-- End Resume Item -->
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -235,7 +216,6 @@
                 <li>In active development</li>
               </ul>
             </div>
-            <!-- End Resume Item -->
 
             <div class="resume-item pb-0">
               <h4>Sakura CMS</h4>
@@ -308,7 +288,6 @@
                 <li>Finished</li>
               </ul>
             </div>
-            <!-- End Resume Item -->
 
             <div class="resume-item pb-0">
               <h4>AllDayBot</h4>
@@ -329,23 +308,19 @@
                 <li>In active development</li>
               </ul>
             </div>
-            <!-- End Resume Item -->
           </div>
         </div>
       </div>
     </section>
-    <!-- /Resume Section -->
 
-    <!-- Services Section -->
     <section id="services" class="services section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>What i do</h2>
         <p>
           I do a lot of stuff. Tho these below are the main things.
         </p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -361,7 +336,7 @@
             </a>
             <p>Coding websites with Laravel and Bootstrap. Creating Discord bots with Disnake.</p>
           </div>
-        </div><!-- End Service Item -->
+        </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="service-item item-orange position-relative">
@@ -373,7 +348,7 @@
             </a>
             <p>Hosting websites, databases and Discord bots on Ubuntu server 22.04 and 24.04 LTS.</p>
           </div>
-        </div><!-- End Service Item -->
+        </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
           <div class="service-item item-teal position-relative">
@@ -385,7 +360,7 @@
             </a>
             <p>Hosting E-mail services with Exim, Dovecot and an SMTP relay.</p>
           </div>
-        </div><!-- End Service Item -->
+        </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="service-item item-red position-relative">
@@ -398,7 +373,7 @@
             <p>Managing websites like WordPress.</p>
             <a href="#" class="stretched-link"></a>
           </div>
-        </div><!-- End Service Item -->
+        </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
           <div class="service-item item-indigo position-relative">
@@ -411,7 +386,7 @@
             <p>I love to thinker with hardware, software and electronics.</p>
             <a href="#" class="stretched-link"></a>
           </div>
-        </div><!-- End Service Item -->
+        </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
           <div class="service-item item-pink position-relative">
@@ -424,21 +399,19 @@
             <p>Creating design for my hobby in the RC plane's</p>
             <a href="#" class="stretched-link"></a>
           </div>
-        </div><!-- End Service Item -->
+        </div>
 
       </div>
 
     </div>
-  </section><!-- /Services Section -->
+  </section>
 
-  <!-- Testimonials Section -->
   <section id="testimonials" class="testimonials section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
         <p>What people think of my work</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -481,7 +454,7 @@
                 </div>
               </div>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -504,14 +477,14 @@
                 </div>
               </div>
             </div>
-          </div> <!-- End testimonial item -->
+          </div>
 
           </div>
         <div class="swiper-pagination"></div>
       </div>
 
       </div>
-    </section><!-- /Testimonials Section -->
+    </section>>
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
@@ -522,10 +495,8 @@
     </div>
   </footer>
 
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -537,7 +508,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 </body>
 
