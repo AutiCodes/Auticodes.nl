@@ -36,6 +36,7 @@
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#tools"><i class="bi bi-tools navicon"></i><span>Tools, languages</span></a></li>
         <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>What i do</span></a></li>
         <li><a href="https://uptime.auticodes.nl" target="_blank"><i class="bi bi-diagram-2 navicon"></i><span>Uptime page</span></a></li>
       </ul>
@@ -312,6 +313,18 @@
         </div>
       </div>
     </section>
+
+    <section id="tools" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+          <h2>Tools, frameworks and coding languages</h2>
+          <p>
+              I do a lot of stuff. Tho these below are the main things.
+          </p>
+      </div>
+
+      <div class="container">
+
+      </section>
 
     <section id="services" class="services section">
 
